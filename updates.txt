@@ -1,26 +1,28 @@
-[CONTENT]
+[TITLE] LATEST PATCH NOTES
+
+[C] CONTENT
 - Added Pigs, with Player heat levels 1-5.
 - Added Fight scene/Sex scene minigames.
 - Added player actions, with minigame interactions.
 - Upon level up, skill messages appear.
 - Added player effects for high level skills.
 
-[FRAMEWORK]
-- Further optimimized player data saving to reduce I/O.
+[F] FRAMEWORK
+- Further optimized player data saving to reduce I/O.
 - Improved npc sprite shuffling, randomize the next sprite.
 - Forcefully logging out, will now save your file.
 - Offloaded more login handshake packets.
 - Converted large packets to binary format.
 
-[GRAPHICAL]
-- Added client settings toggles (top left corner)
+[G] GRAPHICAL
+- Added client settings toggles (top left corner).
 - Added some new CC options.
-- Added character customization button. (Near settings)
+- Added character customization button (Near settings).
 - Added player UI settings tab.
-- Made Pigs cone more appealing, and texturized.
+- Made Pigs cone more appealing and texturized.
 - Improved character appearance screen.
 
-[BUG FIXES]
+[B] BUG FIXES
 - Made the friends list button visible.
 - Fixed a bug that made new players need to logout and back in.
 - Fixed a crash involving defaulting CC options.
